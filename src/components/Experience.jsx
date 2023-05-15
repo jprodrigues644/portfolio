@@ -34,33 +34,32 @@ const Experience = () => {
             style: 'shadow-yellow-500'
         },
         {
-            id: 4 ,
+            id : 4 ,
+            src : typescript,
+            title : "TypeScript",
+            style: 'shadow-blue-600'
+        },
+        {
+            id: 5,
             src: reactImage,
             title: 'React',
             style: 'shadow-blue-400'
         },
         {
-            id: 5 ,
+            id: 6 ,
             src: angularImage,
             title: 'Angular',
             style: 'shadow-red-600'
         },
         {
-            id: 6 ,
-            src: tailwind,
-            title: 'Tailwind',
-            style: 'shadow-blue-300'
-        }
-        ,
-        {
-            id: 7 ,
+            id: 8 ,
             src: node,
             title: 'Node',
             style: 'shadow-green-300'
         }
         ,
         {
-            id: 8,
+            id: 9,
             src: python,
             title: 'Python',
             style: 'shadow-yellow-500'
@@ -84,15 +83,13 @@ const Experience = () => {
             title : 'PHP',
             style :'shadow-violet-500 hidden sm:flex  flex-col'
         },
-        
         {
-            id : 12 ,
-            src : typescript,
-            title : "TypeScript",
-            style: 'shadow-blue-600'
+            id: 12,
+            src: tailwind,
+            title: 'Tailwind',
+            style: 'shadow-blue-300'
         }
-       
-       
+   
     ]
     
   return (
