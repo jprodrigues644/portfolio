@@ -10,6 +10,8 @@ import python from "../assets/python.png";
 import java from "../assets/java.png";
 import php  from "../assets/php.png";
 import mongodb from "../assets/mongodb.png";
+import typescript from "../assets/typescript.png";
+
 const Experience = () => {
     const experiences = [
         {
@@ -81,6 +83,13 @@ const Experience = () => {
             src : php,
             title : 'PHP',
             style :'shadow-violet-500 hidden sm:flex  flex-col'
+        },
+        
+        {
+            id : 12 ,
+            src : typescript,
+            title : "TypeScript",
+            style: 'shadow-blue-600'
         }
        
        
