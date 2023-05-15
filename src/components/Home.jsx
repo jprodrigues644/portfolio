@@ -12,7 +12,7 @@ const Home = () => {
          Etudiant ingénieur en informatique
         </h2>
         <p className='text-gray-800 py-4 max-w-md'>
-        Je suis un étudiant en deuxième année de cycle ingénieur en 
+        Je suis un étudiant en quatrième année en école d'ingénieur en 
         informatique, possédant une maîtrise étendue dans diverses technologies informatiques.
          Mes compétences englobent la conception et le développement de logiciels, ainsi que le développement d'applications Web
  Grâce à mon parcours académique et à mes projets personnels, j'ai pu développer une expertise dans le domaine de l'informatique, en me

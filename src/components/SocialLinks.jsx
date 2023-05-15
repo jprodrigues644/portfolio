@@ -9,13 +9,13 @@ const SocialLinks = () => {
     {
       id : 1,
       src : <> Github <> </> <FaGithub size={30}/> </> ,
-      link: "https://www.linkedin.com/in/joao-rodrigues-111804167/",
+      link: "https://github.com/jprodrigues644",
       style : "rounded-tr-md"
     },
     {
       id : 2,
       src : <>Linkedin <> </> <FaLinkedin size={30}/> </> ,
-      link : "https://www.linkedin.com/in/joao-rodrigues-111804167/",
+      link : "https://www.linkedin.com/in/joao-paulo-sebastiao-rodrigues-111804167",
       style: ""
     },
     {
