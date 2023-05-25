@@ -8,7 +8,6 @@ import tailwind from "../assets/tailwind.png"
 import node from "../assets/node.png";
 import python from "../assets/python.png";
 import java from "../assets/java.png";
-import php  from "../assets/php.png";
 import mongodb from "../assets/mongodb.png";
 import typescript from "../assets/typescript.png";
 
@@ -77,14 +76,9 @@ const Experience = () => {
             title: 'mongoDB',
             style: 'shadow-green-700 hidden sm:flex  flex-col'
         },
+       
         {
-            id : 11,
-            src : php,
-            title : 'PHP',
-            style :'shadow-violet-500 hidden sm:flex  flex-col'
-        },
-        {
-            id: 12,
+            id: 11,
             src: tailwind,
             title: 'Tailwind',
             style: 'shadow-blue-300'
