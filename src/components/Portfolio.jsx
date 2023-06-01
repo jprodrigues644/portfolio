@@ -1,6 +1,7 @@
 import React from 'react'
 import snake from "../assets/portfolio/snake.png"
 import aviontracker from "../assets/portfolio/aviontracker.png"
+import aviontracker from "../assets/portfolio/montyhall.png"
 const Portfolio = () => {
 
   const portfolios = [
@@ -12,6 +13,10 @@ const Portfolio = () => {
           src: aviontracker,
          linkDemo : "https://github.com/jprodrigues644/",
         linkCode : "https://github.com/jprodrigues644/avionstrackers" },
+        {id : 3 , 
+          src: montyhall,
+         linkDemo : "https://montyhallproblemsimulator.netlify.app/",
+        linkCode : "https://github.com/jprodrigues644/montyhall" },
 
   ]
   return (
