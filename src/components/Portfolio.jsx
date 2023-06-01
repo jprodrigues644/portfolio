@@ -1,7 +1,7 @@
 import React from 'react'
 import snake from "../assets/portfolio/snake.png"
 import aviontracker from "../assets/portfolio/aviontracker.png"
-import aviontracker from "../assets/portfolio/montyhall.png"
+import montyhall from "../assets/portfolio/montyhall.png"
 const Portfolio = () => {
 
   const portfolios = [
@@ -20,7 +20,7 @@ const Portfolio = () => {
 
   ]
   return (
-    <div name = "portfolio" className='w-full md:h-screen'>
+    <div name = "portfolio" className='w-full h-screen'>
      
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center 
         w-full h-full' >
@@ -29,18 +29,18 @@ const Portfolio = () => {
           <p className='py-6'>Vous trouverez ci-dessous certains de mes projets. </p>
         </div>
 
-        <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+        <div className='grid grid-cols-2 md:grid-cols-4  gap-8 px-12 sm:px-0 '>
 
         {
           portfolios.map(({id, src, linkDemo, linkCode}) => (
 
            
-            <div key={id} className="shadow-md shadow-gray-400 rounded-lg"> 
-              <img src = {src} alt='project snake' className='rounded-md duration-200 hover:scale-105'/>
-              <div className='flex items-center justify-center '> 
-              <a href={linkDemo} target='blanc'><button className=" w-1/2 px-6 py-3 duration-200 m-3 hover:scale-105" > Demo </button></a>
-                <a href={linkCode} target='blanc'><button className=" w-1/2 px-6 py-3 duration-200 m-3 hover:scale-105"> Code</button></a>
-              </div>
+            <div key={id} className="shadow-md shadow-gray-400 rounded-lg "> 
+              <img src = {src} alt='project snake' className=' h-3/4 rounded-md duration-200 hover:scale-105'/>
+              <div className='flex items-center justify-center  '> 
+              <a href={linkDemo} target='blanc'><button className=" w-1/2 md:px-6 md:py-3 duration-200 md:m-3 px-1 hover:scale-105" > Demo </button></a>
+              <a href={linkCode} target='blanc'><button className=" w-1/2 md:px-6 md:py-3 duration-200 md:m-3 px-1 hover:scale-105"> Code</button></a>
+            </div>
           </div>
         
 
