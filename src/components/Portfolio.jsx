@@ -7,7 +7,7 @@ const Portfolio = () => {
   const portfolios = [
           {id : 1 , 
           src: snake,
-         linkDemo : "https://github.com/jprodrigues644/snakeJavascript",
+         linkDemo : "https://snackjavascript.netlify.app/",
         linkCode : "https://github.com/jprodrigues644/snakeJavascript" },
         {id : 2 , 
           src: aviontracker,
